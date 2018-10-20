@@ -25,4 +25,4 @@ def dynamic_fibo(n):
 * While engineering features, dynamic programming may be useful. 
 
 ### Another example
-* Q. Let f(n) = \sum_{i=1}^{n} \frac{1}{\sum_{j=1}^{i}
+* Q. Let $$ f(n) = \sum_{i=1}^{n} \frac{1}{\sum_{j=1}^{i}
