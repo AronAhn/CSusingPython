@@ -61,4 +61,4 @@ def series_sum(n):
     return sum(parts)
 ```  
 * Intuitevely, the second one is simplest and seems fastest 
-* However, the third one, which is with dynamic programming, is two times faster than the second one
+* However, the third one with dynamic programming is two times faster than the second one
