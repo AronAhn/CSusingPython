@@ -38,7 +38,6 @@ def naive_sum(n):
     for i in range(1, n+1):
         temp = sum(range(1,i+1))
         res_temp.append(1/temp)
-        #for debeging
         #print(temp)
     return sum(res_temp)
 ```  
@@ -46,6 +45,7 @@ def naive_sum(n):
 ```
 def series_sum(n):
     parts = [2/(i**2 + i) for i in range(1,n+1)]
+    #print(parts)
     return sum(parts)
 ```  
   c. Danymic sum; it uses the dynamic programming 
@@ -59,5 +59,6 @@ def series_sum(n):
     #print(parts)
     return sum(parts)
 ```  
-* Intuitevely, second one is simplest and fastest 
+* Intuitevely, the second one seems simplest and fastest 
+* However, the third one was two times faster than the second one
 
