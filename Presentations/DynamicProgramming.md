@@ -26,10 +26,10 @@ def dynamic_fibo(n):
 * While engineering features, dynamic programming may be useful. 
 
 ### Another example
-* Q. Create a function which calculate the value of the nth elemetnt of the following series  
+**Q. Create a function which calculate the value of the nth elemetnt of the following series  
 ![equation](https://latex.codecogs.com/gif.latex?%5Csum_%7Bi%7D%5E%7Bn%7D%5Cfrac%7B1%7D%7B%5Csum_%7Bj%7D%5E%7Bi%7Dj%7D)
 * Three solutions wil introduced here  
-1. Naive sum; there's nothing special
+  1. Naive sum; there's nothing special
 ```
 def naive_sum(n):
     res_temp= []
@@ -40,5 +40,5 @@ def naive_sum(n):
         #print(temp)
     return sum(res_temp)
 ```
-2. Series sum; it uses the property of arithmetic sequence
+  2. Series sum; it uses the property of arithmetic sequence
 
