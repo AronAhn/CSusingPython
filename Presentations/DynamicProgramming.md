@@ -26,4 +26,6 @@ def dynamic_fibo(n):
 * While engineering features, dynamic programming may be useful. 
 
 ### Another example
+* Create a function which calculate the value of the nth elemetnt of the following sequence
 ![equation](https://latex.codecogs.com/gif.latex?%5Csum_%7Bi%7D%5E%7Bn%7D%5Cfrac%7B1%7D%7B%5Csum_%7Bj%7D%5E%7Bi%7Dj%7D)
+* 
