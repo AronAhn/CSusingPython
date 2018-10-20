@@ -3,7 +3,7 @@
 ## Dynamic Programming
 ### Concepts
 * Definition: Simplifying a complicated problem by breaking it down into simpler sub-problems in a recursive manner
-* Key point is that it **reuses** the results from othre sub-problems
+* Key point is that it **REUSES** the results from othre sub-problems
 
 ### Fibonacci Sequence is one of best example of dynamic programming
 * An example of recursive function is below
