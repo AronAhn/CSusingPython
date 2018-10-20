@@ -1,4 +1,3 @@
-html header: <script type="text/javascript"  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 
 ## Dynamic Programming
@@ -27,4 +26,4 @@ def dynamic_fibo(n):
 * While engineering features, dynamic programming may be useful. 
 
 ### Another example
-\\( x(t)=\frac{-b\pm \sqrt{{b}^{2}-4ac}}{2a} \\)
+\\\( x(t)=\frac{-b\pm \sqrt{{b}^{2}-4ac}}{2a} \\\
