@@ -25,4 +25,4 @@ def dynamic_fibo(n):
 * While engineering features, dynamic programming may be useful. 
 
 ### Another example
-$$ f(n) = \sum_{i=1}^{n} \frac{1}{\sum_{j=1}^{i} $$
+f%28n%29+%3D+%5Csum_%7Bi%3D1%7D%5E%7Bn%7D+%5Cfrac%7B1%7D%7B%5Csum_%7Bj%3D1%7D%5E%7Bi%7D
