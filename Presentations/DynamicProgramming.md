@@ -30,8 +30,9 @@ def dynamic_fibo(n):
 
 ![equation](https://latex.codecogs.com/gif.latex?%5Csum_%7Bi%7D%5E%7Bn%7D%5Cfrac%7B1%7D%7B%5Csum_%7Bj%7D%5E%7Bi%7Dj%7D)  
 
-* Three solutions wil introduced here  
-  a. Naive sum; there's nothing special
+* I solved it with three different ways
+
+1. Naive sum; there's nothing special
 ```
 def naive_sum(n):
     res_temp= []
@@ -41,14 +42,14 @@ def naive_sum(n):
         #print(temp)
     return sum(res_temp)
 ```  
-  b. Series sum; it uses the property of arithmetic sequence
+2. Series sum; it uses the property of arithmetic sequence
 ```
 def series_sum(n):
     parts = [2/(i**2 + i) for i in range(1,n+1)]
     #print(parts)
     return sum(parts)
 ```  
-  c. Danymic sum; it uses the dynamic programming 
+3. Danymic sum; it uses the dynamic programming 
  ```
  def dynamic_sum(n):
     memory = 0
@@ -59,6 +60,5 @@ def series_sum(n):
     #print(parts)
     return sum(parts)
 ```  
-* Intuitevely, the second one seems simplest and fastest 
-* However, the third one was two times faster than the second one
-
+* Intuitevely, the second one is simplest and seems fastest 
+* However, the third one, which is with dynamic programming, is two times faster than the second one
